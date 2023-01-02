@@ -192,6 +192,8 @@ aside > ul{
     list-style-position: inside;
     columns: 2;
     list-style-type: '\2714\00A0';/*aqui o primeiro código unicode é um caractere especial. para inseri-los na css é necessário colocar seus respectivos valores depois de uma contrabarra. 00A0 é o NBSP(Non-breaking space), é um código de uma entidade HTML para espaçamento inserido após o valor do caractere especial.*/
+    column-gap: 100px;
+    text-align: left;
 }
 li > abbr{
     /*list-style-type: '🖙';*/
